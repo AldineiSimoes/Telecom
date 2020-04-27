@@ -1,0 +1,143 @@
+#submenurelatorios	{
+	position: fixed;
+	top:50px;
+	width: 100%;
+	height: 50px;
+	background-color: #B03060;
+}
+
+#custosPrincipal {
+	color: white;
+	top:100px;
+	position: fixed;
+	float:left;
+	width: 300px;
+	height: 100%;
+	background-color: #B03060;
+	text-align: center;
+	font-size: 28;
+	font-weight: bold;
+}
+
+.divform {	
+	width: 100%;
+	padding-top: 30px;
+        padding-left: 10px!important;
+	text-align: center;
+        
+/*	background-color: blue;*/
+}
+
+.td2 {
+	width: 100%;
+}
+
+input, select {
+	width: 100%;
+	height: 80%;
+	border: 0px;
+	background-color: #EEE;
+	font-weight: bold;
+	text-align: center;
+}
+
+.td2text {
+	text-align: left;
+}
+
+.btbuscar {
+	background-color: #1E90FF;
+	color: #FFFFFF;
+}
+
+.btbuscar2 {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+.btbuscar3 {
+		padding: 0px;
+}
+
+.btbuscar:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.tdvazio {
+	background-color: #B03060;
+}
+
+.divbtn {
+	top:30px;
+	position: relative;
+	float:right;
+	width: 200px;
+	height: 80px;
+	text-align: center;
+	font-size: 28;
+	font-weight: bold;
+	/*background-color: orange;*/
+	
+}
+
+/*.divbtn {
+	position: absolute;
+	top: 0px;
+	width: 100px;
+	background-color: orange;
+}*/
+
+#tblig1 {
+	padding-right: 10px;
+	float:right;
+}
+
+#tblig2 {
+	padding-right: 250px;
+	float:right;
+	border-left-color: #FFFFFF !important;
+}
+td {
+	width: 100px;
+}
+.cabecalho {
+    width: 100px;
+}
+
+#areaLigacoes {
+	
+	margin-left: 300px;
+	width: 100%;
+	padding-top: 0px;
+	/*background-color: blue;
+	float:right;*/
+	right: 20px;
+}
+
+.divarealig{
+	position: fixed;
+	margin-top: 50px;
+	width:77%;
+	z-index: 2;
+	right: 5px;
+	/*background-color: blue;*/
+	height: 80%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.td3 {
+    background-color: #B03060;
+}
+
+.loadingGIF{
+   position: relative;
+   display: block;
+   top: 300px!important;
+   transform: translateY(-50%);
+   margin-left: auto;
+   margin-right: auto;
+       
+}

@@ -1,0 +1,37 @@
+.btcadencia{
+	background-color: #FFFFFF;
+}
+
+.btoperadoras {
+		background-color: #FF7256;
+	}
+	
+/*#listaoperadora {
+		float: left;
+		left: 0px;
+		height: 100%;
+		width: 60%;
+		box-shadow: 1px 1px 10px #000000;
+		background-color: FFFFFF;
+			
+	}*/
+	
+/*body {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}*/
+
+	.imgtrash{
+		width: 30px;
+		height: 30px;
+	}
+	
+	.tdtrash {
+		text-align: center;
+		width: 100px;
+		
+	}
+        
+        a:hover{
+            text-decoration: none;
+        }

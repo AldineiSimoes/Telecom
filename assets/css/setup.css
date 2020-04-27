@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/06/2018, 13:03:49
+    Author     : mferreira
+*/
+
+
+
+.col-xs-1, .col-md-1{
+    background-color: #004b8b;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFFFFF;
+    width: 150px;
+    height: 130px;
+    position: relative;
+    float: left;
+    
+    
+    
+    
+}
+
+
+
+.col-xs-1:hover, .col-md-1:hover{
+    background-color: #00BFFF;
+    border-color: #FF4500;
+    border-width: 1px;
+    
+}
+
+    
+
+
+a, a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+    
+}
+
+
+@media screen and (max-width: 760px){
+    .row {
+        padding-left: 12%;
+    }
+}

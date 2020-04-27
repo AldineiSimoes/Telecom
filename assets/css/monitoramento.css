@@ -1,0 +1,181 @@
+@font-face {
+	font-family: myFirstFont;
+	src: url("Calibri.woff");
+}
+
+#submenumonitoramento	{
+	position: fixed;
+	top:50px;
+	width: 100%;
+	height: 50px;
+	background-color: rgb(238, 106, 106);
+}
+
+.btmonitora {
+	background-color: rgb(238, 106, 106);
+}	
+.btsubmenumonitora {
+	float: left;
+	left: 0px;
+	width: 50px;
+	height: 100%;
+		
+	
+}
+
+.btsubmenumonitora:hover {
+	background-color: #FFFFFF;
+	
+}
+
+.imgbtsubmenumonitora {
+	position: relative;
+	width: 35px;
+	height: 35px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+	.tblistoperadoras {
+	width: 100%;
+	/*margin-left: 15px;*/
+	font-size: 13px;
+					
+}
+	
+#listaoperadora, #listagentes, #listacampanha, #listaipbx, #listadiscador {
+	float: left;
+	left: 0px;
+	height: 100%;
+	width: 60%;
+	/*box-shadow: 1px 1px 10px #000000;*/
+	background-color: #FFFFFF;
+	/*overflow-y: auto;*/
+	
+		
+}
+
+.listope {
+height: 75%;
+width: 100%;
+overflow: auto;
+overflow-x: hidden;
+}
+
+.tblistoperadoras {
+	width: 100%;
+	/*margin-left: 15px;*/
+	
+					
+}
+
+.tdlistoperadora {
+	height: 10px;
+	font-size: 16px;
+	background-color: #FF7256;
+	font-weight: normal;
+	color: width;
+	height: 2px;
+	
+}
+
+
+.formoperadora {
+	position: relative;
+	top: 75px;
+	float: left;
+	right: 0px;
+	width: 440px;
+	height: 600px;
+	margin-left: 24px;
+	margin-right: 5px;
+	z-index: -1;
+	overflow-x: auto;
+	
+		
+}
+
+.btsalvarop {
+	background-color:#00FF00;
+	height: 100%;
+	width: 100%;
+	border-width: 0px;
+	font-weight: bold;
+	border-radius: 2px;
+	
+}
+
+.btexcluirop {
+	background-color: #FF0000;
+	height: 100%;
+	width: 100px;
+	border-width: 0px;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+.tdvazio, .btsalvarop2, .btexcluirop2, .td2 {
+	background-color: #E8E8E8;
+}
+
+.btsalvarop2 {
+	background-color: #00FF00;
+	
+}
+
+input{
+	width: 100%;
+	height: 30px;
+	margin:0px
+}
+
+.td2 {
+	
+	width: 60%;
+}
+
+.td1{
+	background-color: #FF7256;
+}
+
+.optionformop {
+	width: 82%;
+}
+
+/*body {
+	overflow-y: hidden;
+}*/
+
+.imgtrash{
+	width: 30px;
+	height: 30px;
+}
+
+/*.tdtrash {
+	text-align: center;
+	width: 30px;
+	height: 30px;
+}*/
+
+a.hover{
+    text-decoration: none;
+}
+
+#selectCond{
+	width: 100px;
+	margin-left: 0px;
+}
+
+#subMenuLogs{
+    position: fixed;
+    top:50px;
+    width: 100%;
+    height: 50px;
+    background-color: #D02090;
+}
+
+table.tblistoperadoras tr:hover td{
+    background-color: #FFFFFF;
+}

@@ -1,0 +1,293 @@
+#submenucampanha {
+	position: fixed;
+	top:50px;
+	width: 100%;
+	height: 50px;
+	background-color: #00C5CD;
+}
+.btcampanhas {
+	background-color: #00C5CD;
+}	
+.btsubmenucampanha {
+	float: left;
+	left: 0px;
+	width: 50px;
+	height: 100%;
+		
+	
+}
+	
+.btsubmenucampanha:hover {
+	background-color: #00C5CD;
+	
+}
+	
+.imgbtsubmenucampanha {
+	position: relative;
+	width: 35px;
+	height: 35px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#listacampanha, #listagentes, #listacampanha, #listaipbx, #listadiscador {
+	float: left;
+	left: 0px;
+	height: 100%;
+	width: 60%;
+	/*box-shadow: 1px 1px 10px #000000;*/
+	background-color: FFFFFF;
+	/*overflow-y: auto;*/
+}
+	
+.listope {
+	height: 75%;
+	width: 100%;
+	overflow: auto;
+	overflow-x: hidden;
+}
+	
+	
+.tdlistcampanha {
+	overflow-x: auto;
+	height:470px;
+	width: 300px;
+	font-size: 16px;
+	background-color: #00C5CD;
+	font-weight: normal;
+	color: width;
+	height: 2px;
+	
+}
+	
+
+.formcampanha {
+	position: relative;
+	top: 75px;
+	float: left;
+	right: 0px;
+	width: 440px;
+	height: 600px;
+	margin-left: 24px;
+	margin-right: 5px;
+	z-index: -1;
+	overflow-x: auto;
+}
+	
+.btsalvarop {
+	background-color:#00FF00;
+	height: 100%;
+	width: 100%;
+	border-width: 0px;
+	font-weight: bold;
+	border-radius: 2px;
+}
+	
+.btexcluirop {
+	background-color: #00C5CD;
+	height: 100%;
+	width: 100px;
+	border-width: 0px;
+	font-weight: bold;
+	border-radius: 2px;
+}
+	
+.tdvazio, .btsalvarop2, .btexcluirop2, .td2 {
+	background-color: #E8E8E8;
+}
+	
+.btsalvarop2 {
+	background-color: #00FF00;
+}
+	
+input{
+	width: 100%;
+	height: 30px;
+	margin:0px
+}
+	
+.td2 {
+	width: 60%;
+}
+	
+.td1{
+	background-color: #00C5CD;
+}
+	
+.optionformop {
+	width: 82%;
+}
+
+/*body {
+	overflow-y: hidden;
+}*/
+
+.imgtrash{
+	width: 30px;
+	height: 30px;
+}
+
+.tdtrash {
+	text-align: center;
+	
+	height: 30px;
+}
+.formoprota {
+	position: relative;
+	top: 10px;
+	float: left;
+	right: 0px;
+	width: 1000px;
+	height: 600px;
+	margin-left: 24px;
+	margin-right: 5px;
+	z-index: -1;
+	overflow-x: auto;
+}
+.selOp {
+	width: 150px;
+}
+.title2 {
+	font-size: 36px;
+	color : white;
+	margin-right: 50px;
+	margin-top:5px;
+	text-align: center;
+	float: right;
+}
+
+#selectCamp{
+	width: 100px;
+	margin-left: 20px;
+}
+
+#listacampanha {
+	overflow: auto;
+	overflow-x: hidden;
+	margin-top: 50px;
+	height: 550px;
+}
+/*
+#aiform {
+	position: fixed;
+	top: 0px;
+}*/
+
+#grouprota {
+	width: 300px;
+}
+
+	.tblistcampanhas {
+	margin-left: 25px;
+        font-size: 12px;
+	}
+        
+        table.tblistcampanha tr:hover td{
+            background-color: #FFFFFF;
+        }
+        
+        table.tblistGroup tr:hover td{
+            background-color: #FFFFFF;
+        }
+        a:hover{
+            text-decoration: none;
+        }
+        
+        /* Popup container - can be anything you want */
+
+
+#pop {
+    display: none;
+    position:fixed;
+    top:0px;
+    left: 100%;
+    z-index: 100;
+    height: 100%;
+    width: 50%;
+    background-color: #FFFFFF;
+    border-left:  solid 1px #666666;
+    
+/*   box-shadow: -5px 5px 1px #dad7d7 ;
+   -webkit-box-shadow: -5px 0px 1px #dad7d7;
+   -moz-box-shadow: -5px 0px 1px #dad7d7;*/
+
+
+
+}
+
+.black_overlay {
+/*  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=80);*/
+  
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 1;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=80);
+}
+.white_content {
+ /* display: none;
+  position: fixed;
+  top: 10%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  padding: 16px;
+  border: 1px solid orange;
+  background-color: white;
+  z-index: 2;
+  overflow: auto;*/
+  
+    display: none;
+    position:fixed;
+    top:0px;
+    left: 100%;
+    z-index: 100;
+    height: 100%;
+    width: 50%;
+    background-color: #FFFFFF;
+}
+/*
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.white_content {
+    -webkit-animation: fadeIn 1s ease-in-out;
+    -moz-animation: fadeIn 1s ease-in-out;
+    -o-animation: fadeIn 1s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+}*/
+
+.checkbox {
+    width: 14px;
+    height: 14px;
+}

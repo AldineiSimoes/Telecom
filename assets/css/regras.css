@@ -1,0 +1,25 @@
+.btregras {
+	background-color: #FFFFFF
+}
+
+.btoperadoras {
+		background-color: #FF7256;
+	}
+	
+/*body {
+	overflow-y: hidden;
+}*/
+
+	.trash {
+		text-align: center;
+		
+	}
+	
+	.imgtrash{
+		width: 30px;
+		height: 30px;
+	}
+	
+        a:hover{
+            text-decoration: none;
+        }

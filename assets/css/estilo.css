@@ -1,0 +1,151 @@
+@font-face {
+	font-family: myFirstFont;
+	src: url("Calibri.woff");
+}
+
+.area {
+   /* padding-left: 10px;
+    padding-top: 50px;*/
+	position: relative;
+	float: top;
+     margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	top: 50px;
+	/*text-align: center;*/
+	font-family: myFirstFont;
+	 
+	
+	
+	
+	
+}
+.tabarea {
+    height: 40px;
+}
+.tabitem {
+    float: left;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    cursor:pointer;
+}
+.activetab {
+    border-bottom: 1px solid #FFF;
+}
+.tabbody {
+    display: none;
+}
+.buttonSair {
+    border:0;
+	background-color: orange;
+    color: #FFF;
+    line-height: 40px;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    display: inline-block;
+	
+	
+}
+.button a {
+    color: #FFF;
+    text-decoration: none;
+}
+table th {
+    height: 40px;
+    line-height: 40px;
+    background-color: #DDD;
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+table td {
+    height: 40px;
+    line-height: 40px;
+    background-color: #EEE;
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    
+}
+input [type='text'],input [type='email'],input [type='password'],select
+{
+    width: 100%;
+    height:30px;
+    font-size: 13px;
+    outline: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 5px; 
+}
+select
+{
+    width: 50%;
+    height:30px;
+    font-size: 13px;
+    outline: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 5px; 
+}
+
+.warn {
+    border: 2px solid #FF0000;
+    padding:10px;
+    border-radius: 5px;
+    background-color: #FF9999;
+    color: #000         ;
+    margin-top: 20px;
+}
+.setupbutton {
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    float: left;
+    background:rgba(0,0,0,0.5);
+}
+.phpmonitor {
+    padding: 5px;
+    font-size: 12px;
+    width: 250px;
+    height: 55px;
+    border: 1px #000 solid;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #EEE
+}
+
+
+.loadingGIF{
+    position: relative;
+   display: block;
+   top: 50%;
+   transform: translateY(-50%);
+   margin-left: auto;
+   margin-right: auto;
+       
+}
+
+
+    .buttonStyle {
+  background-color: transparent;
+  border: 0;
+  color: #00f;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  position: relative;
+  text-decoration: underline;
+}

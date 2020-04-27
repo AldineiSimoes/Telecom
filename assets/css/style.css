@@ -1,0 +1,250 @@
+body, html {
+    /*	background-image: url("img/fundo.jpg");
+            height: 100%;
+            background-size: 70% 100%;
+            background-repeat: no-repeat;
+            margin: 0%;*/
+    font-family: myFirstFont;
+    margin:0%;
+    
+}
+
+body{
+    background-color: #3b5998;
+    background-image: url("http://172.16.0.18/gennex/v1/assets/images/fundologin.png") ;
+    
+}
+
+/*body{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}*/
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    transition: all 1s linear;
+}
+
+.imglogin {
+    height: 100%;
+    width: 100%;
+}
+
+.divimglogin {
+    height: 100%;
+    width: 70%;
+
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.boxlogin {
+    -webkit-animation: fadeIn 2s ease-in-out;
+    -moz-animation: fadeIn 2s ease-in-out;
+    -o-animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+
+.boxlogin {
+    height:350px;
+    width: 350px;
+    margin-top: 10%;
+    margin-left: 35%;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3b5998;
+    background-color: #FFFFFF;
+    
+
+    /*background-color:blue;*/
+}
+
+.divlogo {
+    padding-top: 20%;
+    /*background-color: orange;*/
+    /*padding-left: 50px;*/
+
+}
+
+.logotop {
+    display:block;
+    margin: 0 auto;
+
+}
+
+#login {
+    padding-top: 50px;
+    /*padding-left: 50px;*/
+    /*background-color:red;*/
+}
+
+.mc,.tdentrar, .tdnca {
+    padding-left:18%;
+    text-align: center;
+}
+
+.tdendtra{
+    float: none;
+    margin: 0 auto;
+}
+
+table, td, th {
+    width: 100%;
+    margin: auto;
+    /*border: 1px solid black;*/
+    text-align: center;
+
+}
+
+
+input[type="text"] {
+    font-weight: bold;
+    padding: 4px 8px;
+    border:1px solid #000;
+    background: #3b5998;
+    color:#fff;
+    text-align: center;
+}
+
+input[type="password"] {
+    font-weight: bold;
+    padding: 4px 8px;
+    border:1px solid #000;
+    background: #3b5998;
+    color:#fff;
+    text-align: center;
+}
+
+input[type="submit"] {
+    font-weight: bold;
+    padding: 4px 8px;
+    border:1px solid #000;
+    background: #FF0000;
+    color:#fff;
+}
+
+
+.mc{
+    font-size: 10px;	
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("Calibri.woff");
+}
+
+@media screen and (max-width: 1024px) {
+    .imglogin {
+        display:none;
+    }
+
+    .divimglogin {
+        display: none;	
+    }
+
+    .boxlogin {
+        height:100%;
+        width: 100%;
+        margin: 0 auto;
+
+
+
+
+
+    }
+
+    #login {
+        padding-top: 80px;
+        padding-left: 0px;
+        height: 300px;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .divlogo {
+        padding-top: 80px;
+
+    }
+
+    .logotop {
+        display:block;
+        margin: 0 auto;
+    }
+
+    .mc,.tdentrar, .tdnca {
+        padding-left:0%;
+        text-align: center;
+    }
+
+
+}
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #FFFFFF;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #FFFFFF;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #FFFFFF;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #FFFFFF;
+}
+.warnig {
+    border: 2px solid #FF0000;
+    padding:10px;
+    border-radius: 5px;
+    background-color: #FF9999;
+    color: #000         ;
+    margin-top: 20px;
+}
+.buttonP {
+    color: #FFF;
+    text-decoration: none;
+    background-color:#00FF00;
+    height: 100%;
+    width: 100%;
+    border-width: 0px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.title2 {
+    font-size: 36px;
+    color : white;
+    margin-right: 50px;
+    margin-top:5px;
+    text-align: center;
+    float: right;
+}
+
+.divDetalhar {
+    overflow-y: auto;
+}

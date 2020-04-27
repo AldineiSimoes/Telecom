@@ -1,0 +1,61 @@
+	.bttarifas {
+		background-color: #FFFFFF;
+	}
+
+	.btoperadoras {
+			background-color: #FF7256;
+		}
+		
+	.tblistoperadoras {
+		width: 300px;
+	}
+	
+	.trash {
+		text-align: center;
+		
+	}
+	
+	.imgtrash{
+		width: 30px;
+		height: 30px;
+	}
+	
+	.btsalvarop2 {
+		background-color: #00FF00;
+	}
+	
+	.formoperadora {
+		position: relative;
+		top: 75px;
+		float: right;
+		right: 50px;
+		width: 700px;
+		height: 520px;
+		margin-left: 24px;
+		margin-right: 5px;
+		z-index: -1;
+		overflow-x: auto;
+			
+	}
+	
+	.tdvazio{
+		background-color: FFFFFF;
+	}
+	
+	#listaoperadora {
+		
+		width: 30%;
+		
+	}
+	.td2 {
+		
+		width: 150px;
+	}
+        
+        table.tbtarifas tr:hover td{
+            background-color: #FFFFFF;
+        }
+        
+        a:hover{
+            text-decoration:none;
+        }
